@@ -9,7 +9,7 @@ Console.Write("Enter day number: ");
 int dayNum = Convert.ToInt32(Console.ReadLine());
 if (1 <= dayNum && dayNum <= 7)
 {
-    Console.WriteLine($"{dayNum} day is {days[dayNum - 1]}");
+    Console.WriteLine($"day {dayNum} is {days[dayNum - 1]}");
 }
 else
 {
