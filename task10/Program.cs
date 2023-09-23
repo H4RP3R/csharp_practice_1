@@ -19,6 +19,11 @@ bool IsNumberValid(int number)
     else return false;
 }
 
+int Abs(int number)
+{
+    return (number < 0) ? -number : number;
+}
+
 int SecondDigit(int threeDigitNum)
 {
     return threeDigitNum % 100 / 10;
@@ -30,7 +35,7 @@ bool numIsValid = IsNumberValid(num);
 if (numIsValid)
 {
     int result = SecondDigit(num);
-    Console.WriteLine($"{num} -> {result}");
+    Console.WriteLine($"{num} -> {Abs(result)}");
 }
 else
 {
