@@ -43,4 +43,4 @@ int[] randArr = CreateRandIntArray(4, 100, 999);
 int result = CountEvenNums(randArr);
 
 Console.Write(Join(randArr, sep: ", ", wrapLeft: "[", wrapRight: "]"));
-Console.WriteLine($" - > {result}");
+Console.WriteLine($" -> {result}");
