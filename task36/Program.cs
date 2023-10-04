@@ -39,7 +39,7 @@ int OddNumPositionSum(int[] numbers)
     return sum;
 }
 
-int[] randArr = CreateRandIntArray(4, -10, 11);
+int[] randArr = CreateRandIntArray(4, -10, 10);
 int result = OddNumPositionSum(randArr);
 Console.Write(Join(randArr, ", ", "[", "]"));
 Console.WriteLine($" -> {result}");
