@@ -7,8 +7,8 @@
 int GetUserInput(string message)
 {
     Console.Write($"{message}: ");
-    int quarter = Convert.ToInt32(Console.ReadLine());
-    return quarter;
+    int num = Convert.ToInt32(Console.ReadLine());
+    return num;
 }
 
 string DecimalToBinary(int number, int baseNum)
