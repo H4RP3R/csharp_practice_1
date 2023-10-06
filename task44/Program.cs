@@ -8,8 +8,8 @@
 int GetUserInput(string message)
 {
     Console.Write($"{message}: ");
-    int quarter = Convert.ToInt32(Console.ReadLine());
-    return quarter;
+    int num = Convert.ToInt32(Console.ReadLine());
+    return num;
 }
 
 string Join(int[] array, string sep = " ", string wrapLeft = "", string wrapRight = "")
