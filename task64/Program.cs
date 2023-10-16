@@ -11,7 +11,7 @@ int GetUserInput(string msg)
 
 bool IsNaturalNumber(int number)
 {
-    return number > 1;
+    return number > 0;
 }
 
 string NaturalNumbers(int n)
